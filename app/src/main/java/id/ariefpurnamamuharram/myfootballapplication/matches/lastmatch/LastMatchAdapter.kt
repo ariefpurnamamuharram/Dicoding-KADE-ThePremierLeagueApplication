@@ -10,6 +10,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import id.ariefpurnamamuharram.myfootballapplication.R
 import id.ariefpurnamamuharram.myfootballapplication.model.LastMatch
+import id.ariefpurnamamuharram.myfootballapplication.util.invisible
 import org.jetbrains.anko.find
 import java.text.SimpleDateFormat
 import java.util.*
@@ -62,5 +63,8 @@ class LastMatchViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         addReminder.isEnabled = false
         addReminder.setImageResource(R.drawable.ic_add_reminder_disabled)
+
+        // Hide addReminder button
+        addReminder.invisible()
     }
 }
