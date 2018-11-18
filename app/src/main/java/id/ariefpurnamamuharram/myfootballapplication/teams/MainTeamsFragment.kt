@@ -59,6 +59,8 @@ class MainTeamsFragment : Fragment(), LoadingView, MainTeamsView {
                     "English Premier League" -> presenter.getListTeams("4328")
                     "German Bundesliga" -> presenter.getListTeams("4331")
                     "Spanish La Liga" -> presenter.getListTeams("4335")
+                    "Italian Serie A" -> presenter.getListTeams("4332")
+                    "French Ligue 1" -> presenter.getListTeams("4334")
                     else -> presenter.getListTeams("4328")
                 }
             }

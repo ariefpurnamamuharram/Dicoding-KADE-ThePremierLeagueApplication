@@ -58,6 +58,8 @@ class NextMatchFragment : Fragment(), LoadingView, NextMatchView {
                     "English Premier League" -> presenter.getNextMatchList("4328")
                     "German Bundesliga" -> presenter.getNextMatchList("4331")
                     "Spanish La Liga" -> presenter.getNextMatchList("4335")
+                    "Italian Serie A" -> presenter.getNextMatchList("4332")
+                    "French Ligue 1" -> presenter.getNextMatchList("4334")
                     else -> presenter.getNextMatchList("4328")
                 }
             }

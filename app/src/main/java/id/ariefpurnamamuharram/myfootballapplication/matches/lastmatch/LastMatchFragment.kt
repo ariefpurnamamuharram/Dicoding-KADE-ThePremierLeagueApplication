@@ -58,6 +58,8 @@ class LastMatchFragment : Fragment(), LoadingView, LastMatchView {
                     "English Premier League" -> presenter.getLastMatchList("4328")
                     "German Bundesliga" -> presenter.getLastMatchList("4331")
                     "Spanish La Liga" -> presenter.getLastMatchList("4335")
+                    "Italian Serie A" -> presenter.getLastMatchList("4332")
+                    "French Ligue 1" -> presenter.getLastMatchList("4334")
                     else -> presenter.getLastMatchList("4328")
                 }
             }
